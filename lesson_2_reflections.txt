@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+To initialize a git repository, I use git init. It will create a .git folder that is not visible in windows explorer
+but that I can see in gitbash using command ls ~a. I need to inititalize a git repository if I want to start tracking
+changes made to the files in that folder.

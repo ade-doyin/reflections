@@ -1,0 +1,53 @@
+#####
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+So I just used the command line FC in Windows Command Prompt to compare the game_new.js file and the game_old.js file.
+I was easily able to spot the differences in code between the 2 files since this command stacks one below each other the lines
+that differ from one line to the other.
+My questions: 
+What does it mean when there is only 1 line of code displayed in one version and 2 lines of code in the other version?
+	#I'm thinking that it means that in one version, one line of code was added or removed compared to the other version.
+
+######	
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If I am able to see the entire history of a file, I can:
+	#Retrieve old code that was working well and start back from that version to make better code
+	#If I completely crashed a program, I can reverse to a version that was working
+	#If I want rebuild from scratch some functionality, I can rework on a more basic version
+
+#####	
+What do you think are the pros and cons of manually choosing when to create a commit, like you
+do in Git, vs having versions automatically saved, like Google Docs does?	
+
+Pros of manually saving a version or choosing to create a commit are:
+	#Commits (versions) that are more meaningful to the coders
+	#Commits that are executable
+	
+Cons of having the responsibility to manually create a commit:
+	#If you forget to save you can lose a lot of work
+
+############	
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others,
+like Google Docs, treat each file separately?	
+
+When files are interelated and dependent on each other, it's a goo thing to be able to save a snapshot of all the related files
+together so that we know that for each version saved, all the files work together. So this repositery concept is definitely great
+for a programmer working on mnay different interrelated files.
+
+#############
+How can you use the commands git log and git diff to view the history of files?
+
+By using git log I get an overview of all the commits in a repositery. I also get an overview of the number of lines with code added 
+or removed thanks to the symbols "+" or "-". I also get the id of the commit and a description of the commit.
+So after using git log, I can use git diff and insert the id of 2 different commits to get the details of the lines of codes that
+have changed, been added, or removed.
+
+################
+How might using version control make you more confident to make changes that could break something?
+If I use version control, I know it will be much easier and less time consumming to find out bugs.
+
+#######
+Now that you have your workspace set up, what do you want to try using Git for?
+I'd like to use Git to work on my websites. I'm just thinking there are way too many files...
+
