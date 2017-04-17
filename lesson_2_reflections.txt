@@ -3,3 +3,9 @@ What happens when you initialize a repository? Why do you need to do it?
 To initialize a git repository, I use git init. It will create a .git folder that is not visible in windows explorer
 but that I can see in gitbash using command ls ~a. I need to inititalize a git repository if I want to start tracking
 changes made to the files in that folder.
+
+########
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a temporary stage. It's not showing as a saved commit yet and it's not the version from the working directory.
+It gives room to avoid errors in saving and it helps keep commit well thought out and keep a clean repository.
