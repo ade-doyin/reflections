@@ -9,3 +9,38 @@ stay up-to-date with your remote repository?
 
 I want to be in control of what will show in my GitHub repository. I may not want my remote
 repository to be updated with every commits. I may prefer to wait until a specific stage is reached. 
+
+#####
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+ - You fork a repository only within GitHub. It's cloning a remote repository in another remote repository.
+ - You can clone a repository from a remote workspace to your local workspace
+ - You can clone a repository from within your own local workspace
+ - You create a branch within a git repository (remote or local)
+ 
+####
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+So that you are up-to-date between the remote and the local repositories...
+
+####
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+It would more difficult to compare code and see differences between each other's file. We would constantly have
+to exchange (upload and download) files via dropbox or google drive or USB drive... Terrible!!
+
+####
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+I want to make experimental changes or suggestion in a separate branch so my master
+branch stays clean. I can then have co-workers double check on my change and decide together
+if it's a good idea to include it in the general code.
+But adding code to a separate branch means that the master branch may be evolving on its own
+in the meantime. So when I'm ready to show the changes to my team, I will have to merge the master branch
+into my secondary branch. 
+It involves more work: pull the remote master branch, merge it into my local separate branch, resolve any conflicts,
+push my newly merged separate branch to Github, send a pull request, wait for the team to add comments, modifications,
+then merge the separate branch into the master branch on GitHub.
+
+ 
